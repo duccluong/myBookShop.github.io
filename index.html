@@ -53,7 +53,7 @@
                                     <ul class="notify__list">
                                         <li class="notify__items">
                                             <a href="" class="notify__link">
-                                                <img src="/assets/img/book.png" alt="" class="notify__link-img">
+                                                <img src="./assets/img/book.png" alt="" class="notify__link-img">
                                                 <div class="notify__linkinfo">
                                                     <span class="notify__info-name">
                                                         Sài gòn 1 thuở ông tạ
@@ -66,7 +66,7 @@
                                         </li>
                                         <li class="notify__items">
                                             <a href="" class="notify__link">
-                                                <img src="/assets/img/book.png" alt="" class="notify__link-img">
+                                                <img src="./assets/img/book.png" alt="" class="notify__link-img">
                                                 <div class="notify__linkinfo">
                                                     <span class="notify__info-name">
                                                         Sài gòn 1 thuở ông tạ 
@@ -80,7 +80,7 @@
                                         </li>
                                         <li class="notify__items notify__items-readen">
                                             <a href="" class="notify__link ">
-                                                <img src="/assets/img/book.png" alt="" class="notify__link-img">
+                                                <img src="./assets/img/book.png" alt="" class="notify__link-img">
                                                 <div class="notify__linkinfo">
                                                     <span class="notify__info-name">
                                                         Sài gòn 1 thuở ông tạ
@@ -279,7 +279,7 @@
                                     </li>
                                     <li class="header__cart-items">
                                         <a href="" class="header__cart-link">
-                                            <img src="/assets/img/book.png" alt="" class="header__cart-img">
+                                            <img src="./assets/img/book.png" alt="" class="header__cart-img">
                                             <div class="header__cart-linkinfo">
                                                 <div class="header__cart-linkheader">
                                                     <span class="header__cart-linkname">
@@ -1234,7 +1234,8 @@
 </body>
   <script>
  
-document.getElementById("nav__itemssign").addEventListener("click",function(){
+
+ document.getElementById("nav__itemssign").addEventListener("click",function(){
     document.querySelector(".modal").style.display = "flex"
 })
 document.getElementById("btn-out").addEventListener("click",function(){
@@ -1255,18 +1256,16 @@ document.getElementById("btn-login").addEventListener("click",function(){
     document.querySelector(".modal").style.display = "none"
     document.querySelector(".modal1").style.display = "flex"
 })
+
 document.querySelector('.home__product-items').addEventListener("click",function(){
-    window.location='details.html'
+    window.location='detail.html'
 });
 document.querySelector('.btn--cart').addEventListener("click",function(){
     window.location='cart.html'
 });
 document.querySelector('.search__list-history').onmousedown=function(e){
     e.preventDefault();
-};
-// document.querySelector('.heading__main').addEventListener("click",function(){
-//     window.location='index.html'
-// });
+}
 </script>
 
 </html>
