@@ -56,6 +56,14 @@ html{
     padding-left: 5px;
     padding-right: 5px;
 }
+.grid__column-8{
+    width: 66.666666667%;
+    padding-right: 15px;
+}
+.grid__column-4{
+    width: 33.333333333%;
+    padding: 0px 15px;
+}
 /* animation */
 @keyframes Fadein{
     from{
