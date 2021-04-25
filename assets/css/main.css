@@ -1137,7 +1137,7 @@ i.home__product-items-icon-fill{
 #slider figure{
     position: relative;
     width: 500%;
-    animation: 20s slider infinite;
+    animation: 15s slider infinite;
     margin: 0;
     left: 0;
   
@@ -1146,7 +1146,6 @@ i.home__product-items-icon-fill{
     width: 20%;
     float: left;
     margin: 0px;
-
 }
 @keyframes slider{
     0%{
@@ -1205,6 +1204,7 @@ i.home__product-items-icon-fill{
 }
 .items__productinfor{
     padding: 10px 0px;
+    flex-basis: 70%;
 }
 .items__productinfor-text{
     font-size: 15px;
@@ -1216,15 +1216,18 @@ i.home__product-items-icon-fill{
 .number__productcart{
     display: flex;
     flex-direction: column;
-    margin-left: 400px;
+    /* margin-left: 400px; */
     justify-content: center;
     align-content: center;
     text-align: center;
+    flex-basis: 30%;
 }
 .items__productquality{
    border: 1px solid #E0E0E0E0;
    font-size: 16px;
     border-radius: 8px;
+    width: 67px;
+    margin-left: 54px;
 }
 .qualtity_items{
     width: 18px;
@@ -1248,4 +1251,68 @@ i.home__product-items-icon-fill{
 .items_producttoal-money{
     font-size: 14px;
     color: orange;
+}
+.product_rightcart{
+   
+}
+.block__totalcart{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.total__cartpage{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.total__cartpage-left{
+    flex-basis: 70%;
+    font-size: 14px;
+}
+.total__cartpage-right{
+    flex-basis: 30%;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-pay{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-self: center;
+    width: 90%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s;
+    background: linear-gradient(90deg, rgba(255,152,0,1) 0%, rgba(247,105,93,1) 100%);
+}
+.btn-pay span{
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s
+}
+.btn-pay:hover{
+    cursor: pointer;
+    /* letter-spacing: 1px; */
+    transform: scale(1.1,1);
+    -moz-transform: scale(1.1,1);
+    -webkit-transform: scale(1.1,1);
+    -o-transform: scale(1.1,1);
+    -ms-transform: scale(1.1,1);
+}
+.title-final-total .total__cartpage-left{
+    font-weight: 700;
+}
+.title-final-total .total__cartpage-right{
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+}
+.boder-product{
+    width: 95%;
+    margin: auto;
+    border-bottom-width: 1px;
+    border-bottom-color: #ededed;
+    border-bottom-style: solid;
 }
