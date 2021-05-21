@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="assets/js/main.js " async></script>
-    <script src="assets/js/cart.js " async></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
@@ -127,7 +126,7 @@
                    </ul>
                 </nav>
                 <div class="search">
-                    <div id="search__logo" class="search__logo">
+                    <div class="search__logo">
                        <div class="heading__main" href="">Logo</div>
                     </div>
                     <div class="search__search">
@@ -320,153 +319,189 @@
         </header>
         <div class="contanier">
             <div class="grid">
-                <h1 class="heading__cart">Giỏ hàng</h1>
-               <div class="grid__row app__content">
-                    <div class="product_leftcart grid__column-8">
-                        <div class="items_productcart  ">
-                            <button class="items_productcart-close">
-                                <i class="fas fa-times "></i>
-                            </button>
-                            <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/150x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195891.jpg" alt="">
-                           <div class="items__productinfor">
-                               <p class="items__productinfor-text">Bóc dán mùa hè</p>
-                               <p class="items__productinfor-money">38.999đ</p>
-                           </div>
-                           <div class="number__productcart">
-
-                               <div class="items__productquality">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-minus"></i>
-                                   </button>
-                                   <input class="qualtity_items" type="text" placeholder="1">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-plus"></i>
-                                   </button>
+                <div id="checkout_block_address" class="checkout_block">
+                    <h1 class="heading__buy">Địa Chỉ Giao Hàng</h1>
+                    <div class="checkout_block-content">
+                        <div class="checkout_block_address_block">
+                            <div class="input-group-horizontal-shippingaddress">
+                                <label for="">Họ và tên người nhận</label>
+                                <div class="input-group-texting">
+                                    <input type="text" class="input-item" placeholder="Nhập thông tin">
                                 </div>
-                                <div class="items_producttotal">
-                                    <p class="items_producttoal-text">Thành tiền</p>
-                                    <p class="items_producttoal-money">38.999đ</p>
-                                </div>
-                           </div>
-
-                        </div>
-                        <div class="items_productcart  ">
-                            <button class="items_productcart-close">
-                                <i class="fas fa-times "></i>
-                            </button>
-                            <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/150x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195891.jpg" alt="">
-                           <div class="items__productinfor">
-                               <p class="items__productinfor-text">Bóc dán mùa hè</p>
-                               <p class="items__productinfor-money">38.999đ</p>
-                           </div>
-                           <div class="number__productcart">
-
-                               <div class="items__productquality">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-minus"></i>
-                                   </button>
-                                   <input class="qualtity_items" type="text" placeholder="1">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-plus"></i>
-                                   </button>
-                                </div>
-                                <div class="items_producttotal">
-                                    <p class="items_producttoal-text">Thành tiền</p>
-                                    <p class="items_producttoal-money">38.999đ</p>
-                                </div>
-                           </div>
-
-                        </div>
-                        <div class="items_productcart  ">
-                            <button class="items_productcart-close">
-                                <i class="fas fa-times "></i>
-                            </button>
-                            <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/150x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195891.jpg" alt="">
-                           <div class="items__productinfor">
-                               <p class="items__productinfor-text">Bóc dán mùa hè</p>
-                               <p class="items__productinfor-money">38.999đ</p>
-                           </div>
-                           <div class="number__productcart">
-
-                               <div class="items__productquality">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-minus"></i>
-                                   </button>
-                                   <input class="qualtity_items" type="text" placeholder="2">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-plus"></i>
-                                   </button>
-                                </div>
-                                <div class="items_producttotal">
-                                    <p class="items_producttoal-text">Thành tiền</p>
-                                    <p class="items_producttoal-money">38.999đ</p>
-                                </div>
-                           </div>
-
-                        </div>
-                        <div class="items_productcart  ">
-                            <button class="items_productcart-close">
-                                <i class="fas fa-times "></i>
-                            </button>
-                            <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/150x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195891.jpg" alt="">
-                           <div class="items__productinfor">
-                               <p class="items__productinfor-text">Bóc dán mùa hè</p>
-                               <p class="items__productinfor-money">38.999đ</p>
-                           </div>
-                           <div class="number__productcart">
-
-                               <div class="items__productquality">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-minus"></i>
-                                   </button>
-                                   <input class="qualtity_items" type="text" placeholder="3">
-                                   <button class="btn-subtract-qty">
-                                    <i class="fas fa-plus"></i>
-                                   </button>
-                                </div>
-                                <div class="items_producttotal">
-                                    <p class="items_producttoal-text">Thành tiền</p>
-                                    <p class="items_producttoal-money">38.999đ</p>
-                                </div>
-                           </div>
-
-                        </div>
-                    </div>
-                    <div class="product_rightcart grid__column-4">
-                        <div class="block__totalcart">
-                            <div class="total__cartpage">
-                                <div class="total__cartpage-left">
-                                    Thành Tiền
-                                </div>
-                                <div class="total__cartpage-right">
-                                    <span class="price"> 125.400 đ</span>
-                                </div>
-
                             </div>
-                            <div class="total__cartpage">
-                                <div class="total__cartpage-left">
-                                    Phí Vận Chuyển(Miễn Phí Vận Chuyển)
+                            <div class="input-group-horizontal-shippingaddress">
+                                <label for="">Email</label>
+                                <div class="input-group-texting">
+                                    <input type="text" class="input-item" placeholder="Nhập thông tin">
                                 </div>
-                                <div class="total__cartpage-right">
-                                    <span class="price"> 0 đ</span>
-                                </div>
-                                
                             </div>
-                            <div class="boder-product"></div>
-                            <div class="total__cartpage title-final-total">
-                                <div class="total__cartpage-left">
-                                    Tổng số tiền (gồm VAT)
+                            <div class="input-group-horizontal-shippingaddress">
+                                <label for="">Số Điện Thoại</label>
+                                <div class="input-group-texting">
+                                    <input type="text" class="input-item" placeholder="Nhập thông tin">
                                 </div>
-                                <div class="total__cartpage-right">
-                                   <span class="price"> 125.400 đ</span>
+                            </div>
+                            <div class="input-group-horizontal-shippingaddress">
+                                <label for="">Địa chỉ nhận hàng</label>
+                                <div class="input-group-texting">
+                                    <input type="text" class="input-item" placeholder="Nhập thông tin">
                                 </div>
-                            </div> 
-                            <button class="btn-pay"><span>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+                <div id="checkout_block_paymentmethod" class="checkout_block">
+                    <h1 class="heading__buy">Phương thức thanh toán</h1>
+                    <div class="checkout_block-content">
+                        <div class="checkout_block_radio_list">
+                            <ul id="checkout_paymentmethod" class="checkout_block_radio_list_items">
+                                <li class="checkout_block_radio_list_item">
+                                    <div class="checkout_paymentmethod_with_tutorial">
+                                        <div class="radio-big-with-icon-container">
+                                            <label for="" class="fhs-radio-big">
+                                                <input type="radio" class="radio-big fhs-raido-big-with-icon">
+                                                <div class="payment-name-with-icon-container">
+                                                    <img class="img_paymentmethod" src="https://cdn0.fahasa.com/skin/frontend/base/default/images/payment_icon/ico_momopay.svg" alt="">
+                                                    <div class="payment-name">Ví Momo</div>
+                                                </div>
+                                        </div>
+                                            </label>                  
+                                    </div>
+                                </li>
+                                <li class="checkout_block_radio_list_item">
+                                    <div class="checkout_paymentmethod_with_tutorial">
+                                        <div class="radio-big-with-icon-container">
+                                            <label for="" class="fhs-radio-big">
+                                                <input type="radio" class="radio-big fhs-raido-big-with-icon">
+                                                <div class="payment-name-with-icon-container">
+                                                    <img class="img_paymentmethod" src="https://cdn0.fahasa.com/skin/frontend/base/default/images/payment_icon/ico_banktransfer.svg" alt="">
+                                                    <div class="payment-name">Chuyển Khoản Ngân Hàng</div>
+                                                </div>
+                                        </div>
+                                            </label>                  
+                                    </div>
+                                </li>
+                                <li class="checkout_block_radio_list_item">
+                                    <div class="checkout_paymentmethod_with_tutorial">
+                                        <div class="radio-big-with-icon-container">
+                                            <label for="" class="fhs-radio-big">
+                                                <input type="radio" class="radio-big fhs-raido-big-with-icon">
+                                                <div class="payment-name-with-icon-container">
+                                                    <img class="img_paymentmethod" src="https://cdn0.fahasa.com/skin/frontend/base/default/images/payment_icon/ico_zalopayatm.svg" alt="">
+                                                    <div class="payment-name">ATM/Internet Banking</div>
+                                                </div>
+                                        </div>
+                                            </label>                  
+                                    </div>
+                                </li>
+                                <li class="checkout_block_radio_list_item">
+                                    <div class="checkout_paymentmethod_with_tutorial">
+                                        <div class="radio-big-with-icon-container">
+                                            <label for="" class="fhs-radio-big">
+                                                <input type="radio" class="radio-big fhs-raido-big-with-icon">
+                                                <div class="payment-name-with-icon-container">
+                                                    <img class="img_paymentmethod" src="https://cdn0.fahasa.com/skin/frontend/base/default/images/payment_icon/ico_zalopaycc.svg" alt="">
+                                                    <div class="payment-name">Visa/Master/JCB</div>
+                                                </div>
+                                        </div>
+                                            </label>                  
+                                    </div>
+                                </li>
+                                <li class="checkout_block_radio_list_item">
+                                    <div class="checkout_paymentmethod_with_tutorial">
+                                        <div class="radio-big-with-icon-container">
+                                            <label for="" class="fhs-radio-big">
+                                                <input type="radio" class="radio-big fhs-raido-big-with-icon">
+                                                <div class="payment-name-with-icon-container">
+                                                    <img class="img_paymentmethod" src="https://cdn0.fahasa.com/skin/frontend/base/default/images/payment_icon/ico_cashondelivery.svg" alt="">
+                                                    <div class="payment-name">Thanh Toán Khi Nhận Hàng</div>
+                                                </div>
+                                        </div>
+                                            </label>                  
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                    </div>            
+                </div>
+                <div id="checkout_block_product" class="checkout_block">
+                    <h1 class="heading__buy">Kiểm tra lại hàng</h1>
+                    <div class="checkout_block-content">
+                        <div class="checkout_products">
+                            <div class="checkout_products_items">
+                                <div class="checkout_products_item_img">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/145x145/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195891.jpg" alt="">
+                                </div>
+                                <div class="checkout_products_item_detail">
+                                    <div class="checkout_products_item_name">Bóc Dán Thông Minh - Mùa Hè</div>
+                                    <div class="checkout_products_item_price">38,400đ</div>
+                                    <div class="checkout_products_item_quality">1</div>
+                                    <div class="checkout_products_item_total">38,400đ</div>
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout_products">
+                            <div class="checkout_products_items">
+                                <div class="checkout_products_item_img">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/145x145/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195891.jpg" alt="">
+                                </div>
+                                <div class="checkout_products_item_detail">
+                                    <div class="checkout_products_item_name">Bóc Dán Thông Minh - Mùa Hè</div>
+                                    <div class="checkout_products_item_price">38,400đ</div>
+                                    <div class="checkout_products_item_quality">1</div>
+                                    <div class="checkout_products_item_total">38,400đ</div>
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout_products">
+                            <div class="checkout_products_items">
+                                <div class="checkout_products_item_img">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/thumbnail/145x145/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195891.jpg" alt="">
+                                </div>
+                                <div class="checkout_products_item_detail">
+                                    <div class="checkout_products_item_name">Bóc Dán Thông Minh - Mùa Hè</div>
+                                    <div class="checkout_products_item_price">38,400đ</div>
+                                    <div class="checkout_products_item_quality">1</div>
+                                    <div class="checkout_products_item_total">38,400đ</div>
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>            
+                </div>
+                <div class="bsidebar-content">
+                    <div class="container-bsidebar">
+                        <div class="checkout_total">
+                            <div class="checkout_total_subtotal">
+                                <div>Thành Tiền</div>
+                                <div>167,200đ</div>
+                            </div>
+                            <div class="checkout_total_shipping">
+                                <div>Phí Vận Chuyển</div>
+                                <div>0đ</div>
+                            </div>
+                            <div class="checkout_total_grand_total">
+                                <div>
+                                    Tổng Số Tiền (gồm VAT)
+                                </div>
+                                <div>167,200đ</div>
+                                             
+                            </div>
+                            <button class="btn-buy"><span>
                                 THANH TOÁN
                             </span></button>
+                          
                         </div>
                     </div>
-               </div>
+                </div>
+                
             </div>
            </div>
 
@@ -646,41 +681,6 @@
                 </div>   
           </div>
     </div> 
-</body>
-<!-- <script>
     
-document.getElementById("nav__itemssign").addEventListener("click",function(){
-    document.querySelector(".modal").style.display = "flex"
-})
-document.getElementById("btn-out").addEventListener("click",function(){
-    document.querySelector(".modal").style.display = 'none'
-})
-
-document.getElementById("nav__itemslogin").addEventListener("click",function(){
-    document.querySelector(".modal1").style.display = "flex"
-})
-document.getElementById("btn-out1").addEventListener("click",function(){
-    document.querySelector(".modal1").style.display = "none"
-})
-document.getElementById("btn-sign").addEventListener("click",function(){
-    document.querySelector(".modal1").style.display = "none"
-    document.querySelector(".modal").style.display = "flex"
-})
-document.getElementById("btn-login").addEventListener("click",function(){
-    document.querySelector(".modal").style.display = "none"
-    document.querySelector(".modal1").style.display = "flex"
-})
-document.querySelector('.btn--cart').addEventListener("click",function(){
-    window.location='cart.html'
-});
-// document.querySelector('.home__product-items').addEventListener("click",function(){
-//     window.location='details.html'
-// });
-document.querySelector('.search__list-history').onmousedown=function(e){
-    e.preventDefault();
-};
-document.querySelector('.heading__main').addEventListener("click",function(){
-     window.location='index.html'
-});
-</script> -->
+</body>
 </html>
